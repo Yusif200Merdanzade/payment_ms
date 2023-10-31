@@ -1,5 +1,4 @@
 FROM ubuntu:20.04
-RUN apt-get -y update
 RUN apt-get install -y tzdata
 RUN apt-get -y install apache2
 RUN apt-get install -y maven
